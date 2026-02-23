@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title -->
+        <TextView
+            android:text="Formulaire d'inscription"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Nom Field -->
+        <TextView
+            android:text="Nom complet"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/edit_nom"
+            android:hint="Entrez votre nom complet"
+            android:inputType="textPersonName"
+            android:padding="12dp"
+            android:background="@android:drawable/editbox_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Email Field -->
+        <TextView
+            android:text="Email"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/edit_email"
+            android:hint="exemple@email.com"
+            android:inputType="textEmailAddress"
+            android:padding="12dp"
+            android:background="@android:drawable/editbox_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Phone Field -->
+        <TextView
+            android:text="Téléphone"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/edit_phone"
+            android:hint="+212 XXX-XXXXXX"
+            android:inputType="phone"
+            android:padding="12dp"
+            android:background="@android:drawable/editbox_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Address Field -->
+        <TextView
+            android:text="Adresse"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/edit_adresse"
+            android:hint="Votre adresse complète"
+            android:inputType="textPostalAddress"
+            android:padding="12dp"
+            android:background="@android:drawable/editbox_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- City Field -->
+        <TextView
+            android:text="Ville"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/edit_ville"
+            android:hint="Votre ville"
+            android:inputType="textCapWords"
+            android:padding="12dp"
+            android:background="@android:drawable/editbox_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/btn_submit"
+            android:text="ENVOYER"
+            android:textSize="16sp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="20dp"
+            android:padding="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</ScrollView>
