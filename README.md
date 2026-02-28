@@ -1,6 +1,7 @@
 # 📱 Application Formulaire Android
 
-
+![Step 7 - Formulaire](screenshots/step7_app_form2.png)
+![Step 7 - Récapitulatif](screenshots/step7_app_summary.png)
 ## 📋 Description
 Application Android développée dans le cadre du **Lab 3** du cours "Programmation Mobile Android avec Java".  
 L'application permet de saisir des informations personnelles via un formulaire et de les afficher sur un écran récapitulatif.
@@ -34,8 +35,7 @@ L'application permet de saisir des informations personnelles via un formulaire e
 
 ### Étape 7: Application en cours d'exécution
 ![Step 7 - Formulaire](screenshots/step7_app_form.png)
-![Step 7 - Formulaire](screenshots/step7_app_form2.png)
-![Step 7 - Récapitulatif](screenshots/step7_app_summary.png)
+
 
 
 ## 🏗️ Structure du projet
